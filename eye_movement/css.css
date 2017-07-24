@@ -1,0 +1,111 @@
+* {
+	cursor: url(fly.png), auto;
+}
+
+.face {
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height: 350px;
+	z-index: 1;
+	padding-left: 40px;
+	background-image: url(face.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: 40px 0px;
+	
+}
+.container {
+	display: inline-flex;
+	position: relative;
+	width: 260px;
+	height: 100px;
+	z-index: 1;
+	top: 100px;
+	
+
+}
+.eye {
+	display: inline-flex;
+	position: relative;
+	width: 100px;
+	height: 50px;
+	border-radius: 50%;
+	z-index: 10;
+	overflow: hidden;
+	background-color: pink;
+	margin: 20px;
+	
+}
+
+.eyeball {
+	position: relative;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	/*border: 1px solid black;*/
+	z-index: 4;
+	top: -20px;
+	left: 10px;
+	background-color: white;
+}
+
+.iris {
+	position: relative;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background: red;
+	border: 1px solid black;
+	z-index: 5;
+	top: 20px;
+	left: 20px;
+}
+
+.pupil {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: black;
+	z-index: 6;
+	top: 15px;
+	left: 15px;
+}
+.cross-eye {
+	position: absolute;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: #66D144;
+	left: 76px;
+	z-index: 0;
+
+}
+
+.mouth {
+	position: absolute;
+	width: 200px;
+	height: 75px;
+	background: black;
+	z-index: 2;
+	border-bottom-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+	top: 250px;
+	left: 70px;
+
+
+}
+/*.left {
+	margin-left: 20px;
+}*/
+/*
+.right {
+	margin-right: 20px;
+}
+*/
+
+
+
+
+
